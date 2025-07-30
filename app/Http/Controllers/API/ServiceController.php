@@ -25,9 +25,15 @@ class ServiceController extends Controller
         return $serviceService->update($id, $request->validated());
     }
 
-    public function destroy(ServiceService $serviceService,$id)
+    public function destroy(ServiceService $serviceService, $id)
     {
-        $serviceService->delete($id);
+        $deleted = $serviceService->delete($id);
+
+        if (!$deleted) {
+            return response()->json(['message' => 'Service not found.'], 404);
+        }
+
         return response()->json(['message' => 'Service deleted successfully.']);
     }
+
 }

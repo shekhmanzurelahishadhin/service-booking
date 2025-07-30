@@ -25,9 +25,16 @@ class ServiceService
         return $service;
     }
 
-    public function delete(int $id)
+    public function delete(int $id): bool
     {
-        Service::destroy($id);
-        return response()->noContent(); // This ensures 204 status
+        $service = Service::find($id);
+
+        if (!$service) {
+            return false;
+        }
+
+        $service->delete();
+        return true;
     }
+
 }
