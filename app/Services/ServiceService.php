@@ -28,5 +28,6 @@ class ServiceService
     public function delete(int $id)
     {
         Service::destroy($id);
+        return response()->noContent(); // This ensures 204 status
     }
 }
