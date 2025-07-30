@@ -53,8 +53,11 @@ This is a simple API-based service booking system built with Laravel. It allows 
     ```bash
     php artisan serve
     ```
-
-8. Run tests:
+8. Make Test Database for PHPUnit test:
+     ```bash
+     CREATE DATABASE service_booking_test;
+     ```
+9. Run tests:
     ```bash
     php artisan test
     ```
