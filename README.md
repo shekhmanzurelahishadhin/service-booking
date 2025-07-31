@@ -61,7 +61,8 @@ This is a simple API-based service booking system built with Laravel. It allows 
     ```bash
     php artisan test
     ```
-
+## API Documentation
+- https://documenter.getpostman.com/view/40737506/2sB3B8stPF
 ## API Endpoints
 
 - `POST /api/register` - Register a user
