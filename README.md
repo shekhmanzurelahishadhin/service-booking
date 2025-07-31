@@ -80,6 +80,39 @@ This is a simple API-based service booking system built with Laravel. It allows 
 - `PUT /api/admin/services/{id}` - Update service (admin)
 - `DELETE /api/admin/services/{id}` - Delete service (admin)
 
+## Screenshots
+
+### Authentication API (Postman)
+![Registration API](https://i.ibb.co/9HTXQ6dW/register.png)
+
+![Login API](https://i.ibb.co/4RsgHNh4/login.png)
+
+![logout API](https://i.ibb.co/bcRwB83/logout.png)
+
+
+
+### Services API Response
+![Services List](https://i.ibb.co/NntgGncd/service-list.png)
+
+![Services List](https://i.ibb.co/NntgGncd/service-list.png)
+
+![Services Create](https://i.ibb.co/R4CKjY6r/create-service.png)
+
+![Services Update](https://i.ibb.co/CKJdhBKM/update-service.png)
+
+![Services Delete](https://i.ibb.co/nq72mzy3/delete-service.png)
+
+
+
+
+### Booking API Response
+![Booking List](https://i.ibb.co/sJRBNLG8/booking-list.png)
+
+![Services Booking](https://i.ibb.co/yFPr81GM/service-booking.png)
+
+![Customer Booking List](https://i.ibb.co/svVvNyXZ/customer-booking-list.png)
+
+
 ## Author
 
 Developed for evaluation purposes by Shekh Manzur Elahi.
