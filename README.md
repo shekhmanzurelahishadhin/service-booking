@@ -53,16 +53,21 @@ This is a simple API-based service booking system built with Laravel. It allows 
     ```bash
     php artisan serve
     ```
-8. Make Test Database for PHPUnit test:
+8. Make Database:
+     ```bash
+      CREATE DATABASE service_booking;
+      ```
+9. Make Test Database for PHPUnit test:
      ```bash
      CREATE DATABASE service_booking_test;
      ```
-9. Run tests:
+10. Run tests:
     ```bash
     php artisan test
     ```
 ## API Documentation
 - https://documenter.getpostman.com/view/40737506/2sB3B8stPF
+- Base Url `https://softsmine.com/service-booking/public/api`
 ## API Endpoints
 
 - `POST /api/register` - Register a user
